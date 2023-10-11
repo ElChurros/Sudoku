@@ -17,11 +17,11 @@
 }
 
 .row:nth-child(3n) {
-    border-bottom: .1rem solid black;
+    border-bottom: .15rem solid black;
 }
 
 .row div:nth-child(3n) {
-    border-right: .1rem solid black;
+    border-right: .15rem solid black;
 }
 
 .row:last-child {
