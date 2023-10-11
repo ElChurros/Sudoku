@@ -1,0 +1,33 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    border: .25rem solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    border-bottom: .05rem solid gray;
+}
+
+.row div {
+    border-right: .05rem solid gray;
+}
+
+.row:nth-child(3n) {
+    border-bottom: .1rem solid black;
+}
+
+.row div:nth-child(3n) {
+    border-right: .1rem solid black;
+}
+
+.row:last-child {
+    border: none;
+}
+
+.row div:last-child {
+    border: none;
+}

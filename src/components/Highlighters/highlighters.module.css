@@ -1,0 +1,29 @@
+.highlighters {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.highlighters button {
+    width: 1.75rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .125rem;
+    padding: 0;
+    font-weight: normal;
+    box-shadow: 1px 1px 3px #666;
+    border: 1px solid#666;
+}
+
+.highlighters button:active {
+    outline: none;
+}
+.highlighters button:focus {
+    outline: none;
+}
+.highlighters button:hover {
+    outline: none;
+}
