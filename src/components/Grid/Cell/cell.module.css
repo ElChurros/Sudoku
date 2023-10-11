@@ -1,6 +1,6 @@
 .cell {
-    min-width: 2rem;
-    min-height: 2rem;
+    min-width: 4rem;
+    min-height: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -12,7 +12,7 @@
     font-family: 'Caveat', cursive;
     cursor: pointer;
     font-weight: bold;
-    font-size: larger;
+    font-size: xx-large;
     color: #16445e;
 }
 

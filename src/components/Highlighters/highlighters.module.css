@@ -6,7 +6,8 @@
 }
 
 .highlighters button {
-    width: 1.75rem;
+    width: 3.75rem;
+    height: 3.75rem;
     background-color: aliceblue;
     display: flex;
     justify-content: center;
